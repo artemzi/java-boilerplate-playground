@@ -1,4 +1,4 @@
-package com.github.artemzi.application;
+package com.github.artemzi.person;
 
 public class Person {
     private String fullName, company, position, address, city;
@@ -30,27 +30,27 @@ public class Person {
         return age;
     }
 
-    public void setFullName(String fullName) {
+    void setFullName(String fullName) {
         this.fullName = fullName;
     }
 
-    public void setCompany(String company) {
+    void setCompany(String company) {
         this.company = company;
     }
 
-    public void setPosition(String position) {
+    void setPosition(String position) {
         this.position = position;
     }
 
-    public void setAddress(String address) {
+    void setAddress(String address) {
         this.address = address;
     }
 
-    public void setCity(String city) {
+    void setCity(String city) {
         this.city = city;
     }
 
-    public void setAge(int age) {
+    void setAge(int age) {
         this.age = age;
     }
 

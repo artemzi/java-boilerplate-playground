@@ -1,6 +1,5 @@
-package com.github.artemzi.constructor;
+package com.github.artemzi.person;
 
-import com.github.artemzi.application.Person;
 import com.github.javafaker.Faker;
 
 import java.util.ArrayList;

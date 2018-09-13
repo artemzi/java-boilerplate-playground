@@ -1,6 +1,4 @@
-package com.github.artemzi.constructor;
-
-import com.github.artemzi.application.Person;
+package com.github.artemzi.person;
 
 class PersonBuilder {
     private Person person;
