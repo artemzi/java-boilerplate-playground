@@ -6,11 +6,11 @@ import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-public class HelloWorldTest {
+public class PlayTest {
 
     @Test public void printToOutput() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        HelloWorld.print(new PrintStream(out));
+        Play.print(new PrintStream(out));
         Assert.assertEquals("Hello, World!\n", out.toString());
     }
 }
