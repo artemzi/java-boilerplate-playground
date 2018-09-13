@@ -2,7 +2,7 @@ package com.github.artemzi;
 
 import java.io.PrintStream;
 
-public class HelloWorld {
+public class Play {
     public static void main(String[] args) {
         print(System.out);
     }

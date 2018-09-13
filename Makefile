@@ -4,10 +4,10 @@ jar:
 	gradle jar
 
 create: jar
-	docker build -t helloworld .
+	docker build -t app .
 
 run: create
-	docker run --name Hello helloworld
+	docker run --name App app
 
 rm-container:
-	docker rm Hello
+	docker rm App
